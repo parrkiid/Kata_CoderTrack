@@ -1,4 +1,4 @@
-with open('./CordWithLyric.txt') as f:
+with open('testData/04_CordWithLyric.txt') as f:
     INPUT = f.read().splitlines()
 
 for row in INPUT:

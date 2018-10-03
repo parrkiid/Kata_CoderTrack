@@ -1,4 +1,4 @@
-with open('./ExpenseTrackingData.txt') as f:
+with open('testData/05_ExpenseTrackingData.txt') as f:
     INPUT = f.read().splitlines()
 
 SUM_EXPENSE = 0
@@ -12,4 +12,3 @@ for row in INPUT:
 #print(SUM_EXPENSE)
 #print(DAYS)
 print("{:.2f}".format(SUM_EXPENSE/DAYS))
-    
